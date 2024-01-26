@@ -1,4 +1,4 @@
-div.header {
+div.masthead {
   display: flex;
   flex-flow: row nowrap;
   align-content: space-around;
@@ -11,14 +11,104 @@ div.header {
 
 
 
-div.left-header>div {
-  padding: 5px;  
-  /* border-bottom: 2px solid blue; */
+div.left-header {
+  margin-left: 5rem;
 }
 
-div.right-header>div {
-  padding: 5px;  
+div.left-header > div {
+  padding: 5px;
+  border-bottom: 2px solid blue;
 }
+
+div.right-header > div {
+  padding: 5px;
+  border-bottom: 2px solid blue;
+}
+
+.AAJ-logo>h1 {
+  margin: 0px;
+}
+
+/* Necessary Colour styling in Header */
+
+a:hover,
+a:focus,
+a:focus,
+a:active,
+a:visited,
+a:link {
+  text-decoration: none;
+  color: black;
+  /* font-style: italic; */
+}
+
+header.masthead a:hover,
+header.masthead a:focus,
+header.masthead a:focus,
+header.masthead a:active,
+header.masthead a:visited,
+header.masthead a:link {
+  text-decoration: none;
+  color: black;
+  font-style: italic;
+}
+
+.watch-live a:hover,
+.watch-live a:focus,
+.watch-live a:active,
+.watch-live a:visited,
+.watch-live a:link,
+.urdu a:hover,
+.urdu a:focus,
+.urdu a:active,
+.urdu a:visited,
+.urdu a:link {
+  text-decoration: none;
+  color: orange;
+  font-size: 20px;
+}
+
+/****************************************/
+
+
+div.nav-bar > a {
+  font-style: normal;
+}
+
+div.nav-bar {
+  display: flex;
+  flex-flow: row nowrap;
+  overflow-x: auto;
+  justify-content: center;
+  font-size: 24px;
+  /* font-style: normal; */
+  font-weight: 700;
+  border-bottom: 3px solid black;
+padding-top: 16px;
+padding-bottom: rem;
+}
+
+div.nav-bar a {
+  padding-right: 8px;
+  padding-left: 8px;
+  border-right: 1px solid black;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+button.search-button {
+  border: none;
+  background-color: white;
+  padding: 0px;
+}
+
+button.search-button > input {
+  width: 25px;
+  height: 25px;
+}
+
+/* 
+
 
 div.search-button>button {
   border: 0px;
@@ -32,7 +122,7 @@ input[src*="Search-Icon.jpg"] {
 
 div.nav-bar{
   font-size: 1.75rem;
-  /* content: ; */
+  content: ;
   display: flex;
   flex-flow: row nowrap;
   overflow-x: auto;
@@ -47,9 +137,11 @@ div.nav-anchor {
   border-right: 2px solid black;
 }
 
+
+
 div.right-most-nav-anchor {
   padding: 8px;
-  /* border-right: 2px solid black; */
+  border-right: 2px solid black;
 }
 
 /* .watch-live:after {
@@ -62,7 +154,7 @@ div.right-most-nav-anchor {
 
 } */
 
-
+/* 
 a:hover,
 a:link,
 a:active,
@@ -93,12 +185,6 @@ a:visited {
 .border-blueish {
     border-bottom-width: 8px;
 } */
-
-
-
-
-
-
 
 /* div.header {
   margin: 5px none 5px none;
